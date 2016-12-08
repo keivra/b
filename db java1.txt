@@ -1,0 +1,7 @@
+tabel PESAWAT : Id_maskapai, nama penerbangan
+tabel DESTINASI : id_Destinasi, asal, tujuan
+tabel BANGKU : Id_bangku
+tabel JADWAL_PNRBNG : id_jadwal, Id_maskapai, jam_penerbangan
+tabel PELANGGAN : Id_pelanggan, no_identitas, nama, jk, usia, email, alamat, no_telp
+tabel BOOKING : ID_booking, Tanggal_Booking, ID_pelanggan,,,,,
+tabel HARGA : Id_maskapai, Id_destinasi, Id jadwal, harga_tiket
